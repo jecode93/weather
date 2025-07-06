@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+l = Location.create(name: "New York City")
+l.recordings.create(temp: 32, status: "cloudy")
+l.recordings.create(temp: 34, status: "rainy")
+l.recordings.create(temp: 30, status: "rainy")
+l.recordings.create(temp: 28, status: "cloudy")
+l.recordings.create(temp: 22, status: "sunny")
