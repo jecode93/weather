@@ -1,5 +1,5 @@
-class Api::V1::LocationsController < ApplicationController
-  before_action :set_location, only: [:show ]
+class Api::V1::LocationsController < ApiController
+  before_action :set_location, only: [ :show ]
 
   def show; end
 
