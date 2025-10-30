@@ -19,6 +19,9 @@
 
     <%# Includes all stylesheet files in app/assets/stylesheets %>
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js", "data-turbolinks-tracks": "reload" %>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
     <%= javascript_importmap_tags %>
   </head>
 
