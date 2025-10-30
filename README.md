@@ -1,4 +1,4 @@
-# Weather App API
+# Weather App API with JWT Authentication
 
 ### Authors
 
