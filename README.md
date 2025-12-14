@@ -172,7 +172,7 @@ This is a tutorial repository. If you find issues or have suggestions:
 
 ## 📄 License
 
-[Add your license here]
+Please take a look at the [LICENSE](./LICENSE) file for details.
 
 ## 🙋 Support
 
