@@ -64,6 +64,6 @@ end
 
 gem "jwt", "~> 3.1"
 
-gem "devise", "~> 4.9"
+gem "devise", "~> 5.0"
 
 gem "active_model_serializers", "~> 0.10.15"
